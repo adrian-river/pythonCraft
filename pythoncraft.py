@@ -59,6 +59,9 @@ class Voxel(Button):
                 punch_sound.play()
                 destroy(self)
 
+            if key == 'escape':
+                quit()
+
 
 class Sky(Entity):
     def __init__(self):
